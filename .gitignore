@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+logs/*.log
+data/runtime/*.sqlite3
+data/test_workspaces/

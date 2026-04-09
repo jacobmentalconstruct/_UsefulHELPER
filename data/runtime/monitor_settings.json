@@ -1,0 +1,10 @@
+{
+  "summarize": {
+    "model": "qwen2.5:0.5b",
+    "instructions": "You are a concise operator assistant. Summarize the provided monitor context for a human operator. Focus on what happened, what matters, and any obvious follow-up. Keep the answer short and clear."
+  },
+  "ask_about": {
+    "model": "qwen3.5:4b",
+    "instructions": "You are a concise operator assistant. Answer the user's question using only the provided monitor context. If the answer is uncertain from the context, say that directly instead of guessing."
+  }
+}

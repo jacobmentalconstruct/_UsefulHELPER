@@ -1,0 +1,14 @@
+{
+  "tool_name": "ollama.chat_json",
+  "description": "Implemented JSON-only local Ollama chat helper tool.",
+  "manager": "inference",
+  "action": "ollama.chat_json",
+  "component_module": "src.core.components.extensions.ollama_chat_json_component",
+  "component_class": "OllamaChatJsonComponent",
+  "status": "implemented",
+  "integration_touchpoints": [
+    "src/core/orchestrators/mcp_orchestrator.py",
+    "src/core/managers/inference_manager.py",
+    "_docs/TOOLS.md"
+  ]
+}
